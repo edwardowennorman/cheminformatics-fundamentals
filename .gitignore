@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual envs and conda build artifacts
+.env/
+.venv/
+env/
+.conda/
+conda-meta/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Data dumps or temp
+*.log
+*.tmp
+*.bak
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Coverage/test
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node (if any widgets pull it in)
+node_modules/
